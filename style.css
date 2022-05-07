@@ -1,0 +1,50 @@
+ h1 {  font-family:sans-serif;
+color:green;
+text-align:center;
+  padding:2rem;
+font-size:40px;
+font-weight:bold;
+ } 
+
+p.e2 {  font-family:arial;
+color:black;
+font-size:18px;
+font-weight:normal;
+ }
+p.e3  {  font-family:arial;
+text-transform:uppercase;
+color:white;
+font-size:20px;
+font-weight:bold;
+text-align:center;}
+
+img{ border-radius:50%;}
+body 
+{ 
+
+background-image : url("img2.jpg");
+ width: 100%;
+    height: 1200px;
+    background-size: cover; }
+	
+
+.reg-form {  font-family:sans-serif;
+max-width:500px;
+  margin:2rem auto;
+  border:2px solid YellowGreen;
+  padding:2rem;
+  border-radius:5px;
+font-size:16px;
+font-weight:bold;
+line-height:200%;
+background-color: YellowGreen;
+} 
+.submit-button { border:0;
+  background:orange;
+  padding:.5rem;
+  color:white;
+  margin:1rem 0;
+  width:auto;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:.3s background ease; }

@@ -1,0 +1,56 @@
+<html> 
+<head>
+<title> Healthy Food </title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+<h1 > HealthyFood </h1> 
+<img src="img3.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+<img src="img4.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+<img src="img5.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+<img src="img6.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+<img src="img7.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+<img src="img8.jpg"  height= "200px" width="200" alt="Oops my img does not load">
+
+
+<p class="e2"> We know you’re busy. So we promise to make it easier to eat well, not harder. We live in confusing times, with more product choice than ever, sometimes it’s hard to know what to believe. The intended audience of this website is everyday consumers who want reliable advice on eating more healthily. At Healthy Food Guide (HFG) you will find accurate, science-based advice and information about healthy eating. We give you simple answers to important questions on food and health. Subscribing to Healthy Food Guide makes it easy and enjoyable to eat well and feel great. </p> 
+<p class="e3"> Come and join us! <br> Please fill this form if you're a new user </p>
+
+
+
+<form action="" method="">
+
+<div class="reg-form"> 
+
+<label for="textbox1"> First Name: </label>
+<input id="textbox1" type="text" name="firstname" placeholder="Nour" required />
+<br>
+<label for="textbox2"> Last Name: </label>
+<input id="textbox2" type="text" name="lastname" placeholder="Elsimilawy" required />
+<br>
+
+<label for="female"> Female </label>
+<input id="female" type="radio" name="gender" value="f" checked />
+
+<label for="male"> Male </label>
+<input id="male" type="radio" name="gender" value="m" />
+<br>
+<label for="textbox3"> Email: </label>
+<input id="textbox3" type="email" name="email" placeholder="nour@gmail.com" required />
+<br>
+<label for="textbox4"> Password: </label>
+<input id="textbox4" type="password" name="password"  required />
+<br>
+<label for="box"> I agree to all conditions of the form </label>
+<input id="box" type="checkbox" name="check"  />
+<br>
+<br>
+
+<button class="submit-button" type="submit"> Submit  </button>
+</div>
+</form>
+
+</body>
+</html>
